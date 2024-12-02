@@ -87,7 +87,7 @@ h1, h2, h3 {
 
 /* header */
 #header{
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/header-banner.jpg') center/cover no-repeat fixed;
+     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../images/header-banner.png') center/cover no-repeat fixed;
      justify-content: flex-start;
      align-items: flex-end;
 }
@@ -101,15 +101,19 @@ h1, h2, h3 {
 }
 
 .header-content h1 {
+     width: 550px;
      font-size: 4.5rem;
      margin-bottom: 0;
      text-transform: uppercase;
      color: var(--light-color);
+     background-color: #000000;
+     padding: 1.5rem;
 }
 
 .header-content h3 {
      color: var(--light-color);
-     font-weight: 300;
+     font-weight: 600;
+     font-size: 3rem;
      letter-spacing: 4px;
      text-transform: uppercase;
      margin-top: 1.5rem;
@@ -181,7 +185,7 @@ h1, h2, h3 {
 
 /* work */
 #work {
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/work-pic.jpg') center/cover no-repeat fixed;
+     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('../images/work-pic.png') center/cover no-repeat fixed;
      color: var(--light-color);
 }
 
@@ -384,6 +388,7 @@ h1, h2, h3 {
 @media(min-width: 768px){
      .header-content h1{
           font-size: 7rem;
+          width: 750px;
      }
 
      .about-content, .work-top {
